@@ -21,7 +21,7 @@ var updateSubscriptionDiv = function () {
     var monthlyCost = 5;
     if (subType === "standard") {
         monthlyCost = 7;
-    } else if (subTyle === "premium") {
+    } else if (subType === "premium") {
         monthlyCost = 10;
     }
     var total = subDuration * monthlyCost;
